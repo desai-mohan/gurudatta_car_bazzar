@@ -21,11 +21,7 @@ sri-gurudatta/
 
 ### 2. Backend Setup
 ```bash
-cd backend
-npm install
-# Edit .env file: set MONGO_URI and PORT
-node server.js
-```
+
 Backend runs on: http://localhost:5000
 
 ### 3. Frontend Setup
@@ -38,27 +34,12 @@ Frontend runs on: http://localhost:3000
 
 ---
 
-## 🔧 Configuration
 
-### Set Admin Phone Number
-In two files, change `ADMIN_PHONE`:
-- `frontend/src/components/CarCard.js` → line 4
-- `frontend/src/components/CarModal.js` → line 3
 
-### Set Admin Password
-In `frontend/src/App.js` → line 5:
-```js
-const ADMIN_PASSWORD = 'gurudatta2024';
-```
 
-### MongoDB
-Default: `mongodb://localhost:27017/sri-gurudatta`
-For Atlas, update `.env`:
-```
-MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/sri-gurudatta
-```
 
----
+
+
 
 ## 🚗 Car Schema Fields
 | Field | Type | Description |
